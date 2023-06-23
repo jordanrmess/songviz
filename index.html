@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Templater</title>
+</head>
+<body>
+  <h1 id="title"></h1>
+  <p id="content"></p>
+
+  <script>
+    // Define the data for your template
+    var data = {
+      title: "Welcome to My Website",
+      content: "This is the content of my website. Enjoy!"
+    };
+
+    // Get references to the HTML elements
+    var titleElement = document.getElementById("title");
+    var contentElement = document.getElementById("content");
+
+    // Set the content of the HTML elements with the data
+    titleElement.innerHTML = data.title;
+    contentElement.innerHTML = data.content;
+  </script>
+</body>
+</html>
