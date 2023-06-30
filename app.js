@@ -47,7 +47,7 @@ async function fetchData() {
 
 let cities = fetchData()
 cities.then(function(a) {
-	console.log(a)
+	console.log(a[0])
 })
 
 
